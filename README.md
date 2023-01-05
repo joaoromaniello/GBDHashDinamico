@@ -1,5 +1,5 @@
 # HASH DINÂMICO
-Este projeto consiste em uma implementação de uma estrutura de dados de hash dinâmico e de uma estrutura de dados de árvore de busca em Python.
+Este projeto consiste em uma implementação de uma estrutura de dados de hash dinâmico e de uma estrutura de dados de árvore de busca em Python para a disciplina de Gerênciamento de Banco de dados do curso de Ciência da computação.
 
 A estrutura de dados de hash dinâmico permite as operações de busca, inserção e remoção de registros utilizando uma chave NSEQ. Quando uma posição na tabela hash tem mais registros do que o número máximo permitido, o tamanho da tabela é automaticamente aumentado.
 
