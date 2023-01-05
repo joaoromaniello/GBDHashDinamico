@@ -39,5 +39,5 @@ Exemplos de uso das estruturas de dados estão incluídos no código fornecido.
   ## **hashText**:
   Classe responsavel pela indexação utilizando a alternativa 1 para indices baseados no campo TEXT<br>
 
-
+<br><br><br><br><br>
 Espero que este projeto possa ser útil para você e que possa contribuir para o seu aprendizado. Qualquer dúvida ou sugestão, fique à vontade para entrar em contato ou fazer uma pergunta na seção de issues do GitHub. Agradeço a sua visita e espero vê-lo novamente em breve!
