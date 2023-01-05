@@ -1,35 +1,58 @@
-class Registro:
-  def __init__(self, text, rid):
-    self.text = text
-    self.rid = rid
-
-class NoArvore:
+class Elemento:
   def __init__(self, registro):
     self.registro = registro
-    self.esquerda = None
-    self.direita = None
+    self.proximo = None
 
-  def getEsquerda(self):
-    return self.esquerda
+class Registro:
+  def __init__(self, nseq, text):
+    self.nseq = nseq
+    self.text = text
 
-class ArvoreBusca:
-  def __init__(self):
-    self.raiz = None
+class TabelaHash:
+  def __init__(self, tamanho=5):
+    self.tamanho = tamanho
+    self.tabela = [None] * self.tamanho
 
-  def buscar(self, text):
-    atual = self.raiz
-    while atual:
-      if atual.registro.text == text:
-        return atual.registro
-      elif atual.registro.text > text:
-        atual = atual.esquerda
-      else:
-        atual = atual.direita
-    return None
+  def hash(self, text):
+    # Implementar a função de hash aqui
+    # Exemplo: retornar o tamanho do texto modulo o tamanho da tabela
+    return len(text) % self.tamanho
 
   def inserir(self, registro):
-    novo_no = NoArvore(registro)
-    if self.raiz is None:
-      self.raiz = novo_no
-    else:
-      atual = self.raiz
+    posicao = self.hash(registro.text)
+    elemento = Elemento(registro)
+    elemento.proximo = self.tabela[posicao]
+    self.tabela[posicao] = elemento
+
+  def buscar(self, text):
+    posicao = self.hash(text)
+    elemento = self.tabela[posicao]
+    while elemento is not None:
+      if elemento.registro.text == text:
+        return elemento.registro
+      elemento = elemento.proximo
+    return None
+
+  def remover(self, text):
+    posicao = self.hash(text)
+    elemento = self.tabela[posicao]
+    anterior = None
+    while elemento is not None:
+      if elemento.registro.text == text:
+        if anterior is None:
+          self.tabela[posicao] = elemento.proximo
+        else:
+          anterior.proximo = elemento.proximo
+        return elemento.registro
+      anterior = elemento
+      elemento = elemento.proximo
+    return None
+
+  def imprimir(self):
+    for i in range(self.tamanho):
+      elemento = self.tabela[i]
+      print("Posição {}:".format(i), end=" ")
+      while elemento is not None:
+        print("[{}]".format(elemento.registro.text), end=" ")
+        elemento = elemento.proximo
+      print()
