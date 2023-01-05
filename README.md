@@ -19,9 +19,9 @@ Exemplos de uso das estruturas de dados estão incluídos no código fornecido.
 | 6    | Registro 6 |
 
 
-Repare que no projeto existem varias classes, sendo elas: 
-  hashAlt3Text: classe responsavel pela indexação utilizando a alternativa 3 para indices baseados no campo TEXT  <br>
-  hashNSeq: classe responsavel pela indexação utilizando a alternativa 1 para indices baseados no campo NSEQ  <br>
-  hashText: classe responsavel pela indexação utilizando a alternativa 1 para indices baseados no campo TEXT<br>
+Repare que no projeto existem varias classes, sendo elas: <br>
+  **hashAlt3Text: classe responsavel pela indexação utilizando a alternativa 3 para indices baseados no campo TEXT  <br>
+  **hashNSeq: classe responsavel pela indexação utilizando a alternativa 1 para indices baseados no campo NSEQ  <br>
+  **hashText: classe responsavel pela indexação utilizando a alternativa 1 para indices baseados no campo TEXT<br>
   
  A utilização de cada uma delas foi representada nas classes main de acordo com o nome de cada uma
