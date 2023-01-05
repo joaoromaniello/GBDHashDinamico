@@ -4,7 +4,7 @@ def imprimir_tabela_hash(tabela_hash):
   for i, entrada in enumerate(tabela_hash.tabela):
     print(f"Indice {i}: {[registro.nseq for registro in entrada]}")
 
-tabela_hash = TabelaHash(10)
+tabela_hash = TabelaHash(4)
 
 # Inserir alguns registros na tabela hash
 for i in range(0, 8):
@@ -13,7 +13,7 @@ for i in range(0, 8):
 # Imprimir a tabela hash antes do aumento de tamanho
 print("Tabela hash antes do aumento de tamanho:")
 imprimir_tabela_hash(tabela_hash)
-
+tabela_hash.busca(20)
 #Para simular um overflow na tabela, basta adicionar mais que 5 (tamanho maximo definido na propria classe) em
 # uma posição da tabela
 
@@ -25,10 +25,10 @@ print("\nTabela hash depois do aumento de tamanho:")
 imprimir_tabela_hash(tabela_hash)
 
 
-tabela_hash.remover(20)
+tabela_hash.remover(2)
+tabela_hash.remover(4)
 tabela_hash.remover(10)
-tabela_hash.remover(30)
-
+tabela_hash.busca(4)
 print("")
 print("Tabela após remoção dos nós 20 e 60")
 imprimir_tabela_hash(tabela_hash)
