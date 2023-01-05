@@ -28,13 +28,13 @@ Exemplos de uso das estruturas de dados estão incluídos no código fornecido.
 | 2      | Bruno           | 2, 7 |
 
 
-Repare que no projeto existem varias classes, sendo elas: <br>
-  ## **hashAlt3Text**: 
+
+  # **COMO UTILIZAR** <br>
+ A utilização de cada uma delas foi representada nas classes main de acordo com o nome de cada uma, sendo assim, para visualizar cada uma das indexações basta ir na classe main correspondente, adicionar registro utilizando a função **inserir**, e imprimir.
+ 
+   ## **hashAlt3Text**: 
   classe responsavel pela indexação utilizando a alternativa 3 para indices baseados no campo TEXT  <br>
   ## **hashNSeq**:
   classe responsavel pela indexação utilizando a alternativa 1 para indices baseados no campo NSEQ  <br>
   ## **hashText**:
   classe responsavel pela indexação utilizando a alternativa 1 para indices baseados no campo TEXT<br>
-  
-  # **COMO UTILIZAR** <br>
- A utilização de cada uma delas foi representada nas classes main de acordo com o nome de cada uma, sendo assim, para visualizar cada uma das indexações basta ir na classe main correspondente, adicionar registro utilizando a função **inserir**, e imprimir.
