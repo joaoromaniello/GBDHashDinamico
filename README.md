@@ -9,14 +9,20 @@ Para utilizar as estruturas de dados, basta instanciar a classe TabelaHash ou Ar
 
 Exemplos de uso das estruturas de dados estão incluídos no código fornecido.
 
-| NSEQ | TEXT       |
+| NSEQ | TEXT       |                         
 |------|------------|
-| 1    | Registro 1 |
+| 1    | Registro 1 |           
 | 2    | Registro 2 |
 | 3    | Registro 3 |
 | 4    | Registro 4 |
 | 5    | Registro 5 |
 | 6    | Registro 6 |
+
+| Índice | Chave do índice | RIDs |
+|--------|-----------------|------|
+| 0      | Carlos          | 3    |
+| 1      | Ana             | 1, 9 |
+| 2      | Bruno           | 2, 7 |
 
 
 Repare que no projeto existem varias classes, sendo elas: <br>
