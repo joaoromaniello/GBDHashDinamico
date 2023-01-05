@@ -8,3 +8,12 @@ A estrutura de dados de árvore de busca permite as operações de busca, inser�
 Para utilizar as estruturas de dados, basta instanciar a classe TabelaHash ou ArvoreBusca e chamar as funções de busca, inserção e remoção conforme necessário.
 
 Exemplos de uso das estruturas de dados estão incluídos no código fornecido.
+
+| NSEQ | TEXT       |
+|------|------------|
+| 1    | Registro 1 |
+| 2    | Registro 2 |
+| 3    | Registro 3 |
+| 4    | Registro 4 |
+| 5    | Registro 5 |
+| 6    | Registro 6 |
