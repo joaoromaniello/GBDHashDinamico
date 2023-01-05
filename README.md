@@ -28,4 +28,4 @@ Repare que no projeto existem varias classes, sendo elas: <br>
   classe responsavel pela indexação utilizando a alternativa 1 para indices baseados no campo TEXT<br>
   
   # **COMO UTILIZAR** <br>
- A utilização de cada uma delas foi representada nas classes main de acordo com o nome de cada uma
+ A utilização de cada uma delas foi representada nas classes main de acordo com o nome de cada uma, sendo assim, para visualizar cada uma das indexações basta ir na classe main correspondente, adicionar registro utilizando a função **inserir**, e imprimir.
