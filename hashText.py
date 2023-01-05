@@ -9,6 +9,9 @@ class NoArvore:
     self.esquerda = None
     self.direita = None
 
+  def getEsquerda(self):
+    return self.esquerda
+
 class ArvoreBusca:
   def __init__(self):
     self.raiz = None
