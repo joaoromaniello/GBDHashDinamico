@@ -13,11 +13,18 @@ for i in range(0, 8):
 # Imprimir a tabela hash antes do aumento de tamanho
 print("Tabela hash antes do aumento de tamanho:")
 imprimir_tabela_hash(tabela_hash)
-tabela_hash.busca(20)
+
+
+tabela_hash.buscar(20)
+if tabela_hash.buscar(4):
+    print("\nREGISTRO ACHADO!")
+else:
+    print("\nREGISTRO NÃO PRESENTE")
+
 #Para simular um overflow na tabela, basta adicionar mais que 5 (tamanho maximo definido na propria classe) em
 # uma posição da tabela
 
-for i in range(0,5):
+for i in range(0,9):
     tabela_hash.inserir(Registro(i*10, f"Registro {i}"))
 
 # Imprimir a tabela hash depois do aumento de tamanho
@@ -28,7 +35,12 @@ imprimir_tabela_hash(tabela_hash)
 tabela_hash.remover(2)
 tabela_hash.remover(4)
 tabela_hash.remover(10)
-tabela_hash.busca(4)
+
+if tabela_hash.buscar(4):
+    print("\nREGISTRO ACHADO!")
+else:
+    print("\nREGISTRO NÃO PRESENTE")
+
 print("")
-print("Tabela após remoção dos nós 20 e 60")
+print("Tabela após remoção dos nós 2,4 e 10")
 imprimir_tabela_hash(tabela_hash)
