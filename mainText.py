@@ -3,6 +3,7 @@ from hashText import Registro, TabelaHash
 # Criar uma instância da tabela hash
 tabela_hash = TabelaHash()
 
+##EXEMPLO
 tabela_hash.inserir(Registro(1, "Ana"))
 tabela_hash.inserir(Registro(2, "Bruno"))
 tabela_hash.inserir(Registro(3, "Carlos"))

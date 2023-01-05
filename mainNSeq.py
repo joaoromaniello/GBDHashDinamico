@@ -1,6 +1,7 @@
 from hashNSeq import TabelaHash, Registro
 
 def imprimir_tabela_hash(tabela_hash):
+    ##EXEMPLO
   for i, entrada in enumerate(tabela_hash.tabela):
     print(f"Indice {i}: {[registro.nseq for registro in entrada]}")
 registroProcurado = 4

@@ -2,7 +2,7 @@ from hashAlt3Text import TabelaHash
 
 
 tabela_hash = TabelaHash()
-
+##EXEMPLO
 tabela_hash.inserir(1, "Ana")
 tabela_hash.inserir(2, "Bruno")
 tabela_hash.inserir(3, "Carlos")
@@ -23,3 +23,4 @@ if rids is not None:
   print()
 else:
   print("Registros não encontrados")
+
