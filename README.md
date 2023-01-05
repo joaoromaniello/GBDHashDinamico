@@ -27,5 +27,5 @@ Repare que no projeto existem varias classes, sendo elas: <br>
   ## **hashText**:
   classe responsavel pela indexação utilizando a alternativa 1 para indices baseados no campo TEXT<br>
   
-  ## **COMO UTILIZAR** <br>
+  # **COMO UTILIZAR** <br>
  A utilização de cada uma delas foi representada nas classes main de acordo com o nome de cada uma
