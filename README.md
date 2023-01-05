@@ -17,3 +17,21 @@ Exemplos de uso das estruturas de dados estão incluídos no código fornecido.
 | 4    | Registro 4 |
 | 5    | Registro 5 |
 | 6    | Registro 6 |
+
+
+
+  __
+       \`*-.
+        )  _`-.
+       .  : `. .
+       : _   '  \
+       ; *` _.   `*-._
+       `-.-'          `-.
+         ;       `       `.
+         :.       .        \
+         . \  .   :   .-'   .
+         '  `+.;  ;  '      :
+         :  '  |    ;       ;-.
+         ; '   : :`-:     _.`* ;
+      .*' /  .*' ; .*`- +'  `*'
+      `*-*   `*-*  `*-*'
