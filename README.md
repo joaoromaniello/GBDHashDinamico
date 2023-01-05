@@ -9,6 +9,8 @@ Para utilizar as estruturas de dados, basta instanciar a classe TabelaHash ou Ar
 
 Exemplos de uso das estruturas de dados estão incluídos no código fornecido.
 
+## **Exemplo de representação de uma tabela utilizando a alternativa 1**:
+
 | NSEQ | TEXT       |                         
 |------|------------|
 | 1    | Registro 1 |           
@@ -18,6 +20,7 @@ Exemplos de uso das estruturas de dados estão incluídos no código fornecido.
 | 5    | Registro 5 |
 | 6    | Registro 6 |
 
+## **Exemplo de representação de uma tabela utilizando a alternativa 3**:
 | Índice | Chave do índice | RIDs |
 |--------|-----------------|------|
 | 0      | Carlos          | 3    |
