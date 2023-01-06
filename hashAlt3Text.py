@@ -11,7 +11,7 @@ class Elemento:
 
 class TabelaHash:
   def __init__(self):
-    self.tamanho = 10
+    self.tamanho = 60
     self.tabela = [None] * self.tamanho
 
   def hash(self, text):
@@ -44,6 +44,19 @@ class TabelaHash:
       elemento = self.tabela[i]
       print(f"{i}: ", end="")
       while elemento is not None:
+        print(f"{elemento.registro.text} ({elemento.rids}) -> ", end="")
+        elemento = elemento.proximo
+      print("None")
+
+  def criarIndices(self):
+    f = open("dataFiles/index.bin", 'a')
+
+    for i in range(self.tamanho):
+      elemento = self.tabela[i]
+      print(f"{i}: ", end="")
+      f.write("\n")
+      while elemento is not None:
+        f.write(f"{elemento.registro.text} ({elemento.rids}) -> ")
         print(f"{elemento.registro.text} ({elemento.rids}) -> ", end="")
         elemento = elemento.proximo
       print("None")
